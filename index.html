@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width">
+    <title>Squares</title>
+    <link href="css/squares.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-squares">
+        <h1 class="game-name">SQUARES</h1>
+        <p class="clicks">Clicks:<span id="counter" class="counter">0</span></p>
+    </div>
+    <button class="begin-game-button" type="submit">Begin Game!</button>
+    <form class="squares-settings">
+        <h5 class="squares-settings-title">Type Field's Width and Height</h5>
+        <label class="field-name">Width:<input type="number" class="width"></label>
+        <label class="field-name">Height:<input type="number" class="height"></label>
+        <span class="warning-msg">Product of width and height should be even</span>
+        <button type="submit" class="submit-settings">Submit</button>
+    </form>
+    <script src="ts/SquareGame.js"></script>
+</body>
+
+</html>
